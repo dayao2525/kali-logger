@@ -1,0 +1,18 @@
+{
+  "name": "@kali/logger",
+  "version": "0.0.1",
+  "description": "wrapper winston logger",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": {
+    "name": "dayao",
+    "email": "dayao2525@gmail.com"
+  },
+  "dependencies": {
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
