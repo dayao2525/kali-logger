@@ -1,12 +1,13 @@
 {
   "name": "@dayao2525/logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wrapper winston logger",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "node ./test.js"
   },
+  "types": "./index.d.ts",
   "author": {
     "name": "dayao",
     "email": "dayao2525@gmail.com"
