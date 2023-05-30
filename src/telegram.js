@@ -127,8 +127,6 @@ export default async function CreateBot(key) {
     process.once('SIGINT', () => bot.stop('SIGINT'));
     process.once('SIGTERM', () => bot.stop('SIGTERM'));
 
-
-
     function sendMessage(chatId, msg) {
         try {
             bot.telegram.sendMessage(chatId, msg)
