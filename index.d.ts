@@ -1,3 +1,4 @@
+import { Telegraf } from "telegraf";
 import type winston from "winston";
 
 export interface LoggerInstance {
@@ -14,5 +15,10 @@ interface Constructor {
   (options: LoggerOptions): LoggerInstance;
 }
 
-export const LoggerConstructor: Constructor;
-export = LoggerConstructor;
+export interface BotInstance {
+  bot:  Telegraf,
+  text: (chatId: string, msg: string)=> void
+}
+
+export const Logger: Constructor;
+export const Bot: (key: string)=> BotInstance

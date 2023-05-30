@@ -1,11 +1,11 @@
 {
   "name": "@dayao2525/logger",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "wrapper winston logger",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js"
+    "test": "node ./test/test.js"
   },
   "types": "./index.d.ts",
   "author": {
@@ -13,6 +13,7 @@
     "email": "dayao2525@gmail.com"
   },
   "dependencies": {
+    "telegraf": "^4.12.2",
     "winston": "^3.8.2",
     "winston-daily-rotate-file": "^4.7.1"
   },
