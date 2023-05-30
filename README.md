@@ -12,7 +12,7 @@ $ yarn add @dayao2525/logger
 ```
 or
 ```shellscript
-$ pnpm add telegraf
+$ pnpm add @dayao2525/logger
 ```
 
 ### 说明
