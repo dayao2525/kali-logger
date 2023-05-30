@@ -1,9 +1,13 @@
 {
   "name": "@dayao2525/logger",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "wrapper winston logger",
   "type": "module",
   "main": "index.js",
+  "files": [
+    "src",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "node ./test/test.js"
   },
