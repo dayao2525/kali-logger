@@ -21,16 +21,10 @@ function client() {
 
 
 async function telegram() {
-    // infinix
     const key = ''
-    // big
-    // const key = ''
     const chatId = ''
-    // 小
-    // const chatId = ''
     const { bot, text} = await Bot(key);
     // console.log(bot, text)
-
     text(chatId, '给你发消息啦')
 
     // try {
@@ -41,14 +35,11 @@ async function telegram() {
     //     console.error(e)
     // }
 
-
-
 }
 
 try {
-    main()
-    // telegram();
-    // console.log(process.env)
+    // main()
+    telegram();
 } catch(e) {
     console.error(e)
 }

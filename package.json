@@ -19,7 +19,7 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
-    "tag": "beta",
+    "tag": "latest",
     "access": "public"
   },
   "repository": {
