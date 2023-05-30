@@ -16,5 +16,5 @@ $ pnpm add telegraf
 ```
 
 ### 说明
-- [Logger](./LOGGER.MD)
-- [TgBot](./TELEGRAM.MD)
+- [Logger](./LOGGER.md)
+- [TgBot](./TELEGRAM.md)
